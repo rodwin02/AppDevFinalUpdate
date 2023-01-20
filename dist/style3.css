@@ -1,0 +1,499 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bayon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 1440px;
+  height: 799px;
+  background: linear-gradient(116.82deg, #6C63FE 0%, #000000 100%);
+}
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.sign-up .sign-up-container {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  height: 500px;
+  position: relative;
+  margin: 10% 10%;
+}
+.sign-up .sign-up-container .left-container {
+  width: 50%;
+  background: linear-gradient(147.25deg, #000000 0%, #584FE8 100%);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding-top: 120px;
+}
+.sign-up .sign-up-container .left-container .welcome-title {
+  font-family: "Bayon";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  /* or 30px */
+  text-align: start;
+  letter-spacing: 0.015em;
+  margin-top: -350px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  padding-top: 80px;
+  color: #FFFFFF;
+  position: absolute;
+}
+.sign-up .sign-up-container .left-container .welcome-description {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  text-align: start;
+  letter-spacing: 0.015em;
+  margin-top: -320px;
+  padding-left: 10px;
+  padding-top: 80px;
+  color: #FFFFFF;
+  position: absolute;
+  width: 32%;
+}
+.sign-up .sign-up-container .left-container .img {
+  position: relative;
+  width: 90%;
+}
+.sign-up .sign-up-container .right-container {
+  width: 50%;
+  text-align: start;
+  background-color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-left: 15px;
+}
+.sign-up .sign-up-container .right-container .sign-up-title {
+  font-family: "Bayon";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 100%;
+  letter-spacing: 0.015em;
+  color: #7363F4;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+.sign-up .sign-up-container .right-container .line-two-container {
+  text-align: start;
+  display: flex;
+  margin-bottom: 15px;
+}
+.sign-up .sign-up-container .right-container .line-two-container .line {
+  width: 60px;
+  height: 2px;
+  background-color: #000000;
+  margin-left: 0;
+  margin-top: 6px;
+}
+.sign-up .sign-up-container .right-container .line-two-container .sign-up-with {
+  font-family: "Bai Jamjuree";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #000000;
+  margin-left: -230px;
+}
+.sign-up .sign-up-container .right-container .line-three-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sign-up .sign-up-container .right-container .line-three-container .button {
+  width: 140px;
+  height: 25px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.sign-up .sign-up-container .right-container .line-three-container .button .logo {
+  width: 10%;
+  padding-top: 6px;
+  padding-left: 3px;
+  margin-left: 5px;
+}
+.sign-up .sign-up-container .right-container .line-three-container .button .link-name {
+  font-family: "Bai Jamjuree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  margin-left: 5px;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+}
+.sign-up .sign-up-container .right-container .input-container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Bai Jamjuree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  margin-top: 10px;
+  /* identical to box height, or 11px */
+  letter-spacing: 0.015em;
+}
+.sign-up .sign-up-container .right-container .input-container label {
+  margin: 0;
+  padding-left: 15px;
+}
+.sign-up .sign-up-container .right-container .input-container input {
+  margin: 0;
+  width: 230px;
+  height: 28px;
+  margin-left: 2px;
+  padding-left: 5px;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  margin-left: 15px;
+  padding-left: 15px;
+  font-family: "Bai Jamjuree";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 78%;
+  /* or 9px */
+  letter-spacing: 0.015em;
+  color: #000000;
+}
+.sign-up .sign-up-container .right-container select {
+  width: 230px;
+  height: 28px;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  padding-left: 10px;
+  margin-left: 15px;
+  font-family: "Bai Jamjuree";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 78%;
+}
+.sign-up .sign-up-container .right-container .skip-container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 0;
+  padding-top: 10px;
+}
+.sign-up .sign-up-container .right-container .skip-container .createbtn {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #000000;
+  border-radius: 15px;
+  border: none;
+}
+.sign-up .sign-up-container .right-container .skip-container .createbtn .arrow {
+  margin: 12px;
+}
+.sign-up .sign-up-container .right-container .skip-container .have-account-up {
+  font-family: "Bai Jamjuree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 125%;
+  /* identical to box height, or 12px */
+  letter-spacing: 0.015em;
+  color: #000000;
+  padding-top: 20px;
+  margin-left: -25px;
+  text-decoration: none;
+}
+.sign-up .sign-up-container .right-container .skip-container span {
+  background-color: #6C63FE;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.sign-up .sign-up-container .right-container .have-account-up:hover {
+  text-decoration: underline;
+}
+.sign-up .sign-up-container .right-container .createbtn:hover {
+  background-color: #424242;
+}
+.sign-up .sign-up-container .right-container .error-msg {
+  margin-top: 7px;
+  margin-bottom: -7px;
+  width: 300px;
+  text-align: center;
+  display: block;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  font-family: "Bai Jamjuree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 125%;
+}
+.sign-up .sign-up-container .close {
+  padding-top: 10px;
+  padding-left: 348px;
+  cursor: pointer;
+}
+
+.sign-in {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.sign-in .sign-in-container {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  height: 500px;
+  position: relative;
+  margin: 10% 10%;
+}
+.sign-in .sign-in-container .left-container {
+  width: 50%;
+  background: linear-gradient(147.25deg, #000000 0%, #584FE8 100%);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding-top: 120px;
+}
+.sign-in .sign-in-container .left-container .welcome-title {
+  font-family: "Bayon";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  /* or 30px */
+  text-align: start;
+  letter-spacing: 0.015em;
+  margin-top: -350px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  padding-top: 80px;
+  color: #FFFFFF;
+  position: absolute;
+}
+.sign-in .sign-in-container .left-container .welcome-description {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  text-align: start;
+  letter-spacing: 0.015em;
+  margin-top: -320px;
+  padding-left: 10px;
+  padding-top: 80px;
+  color: #FFFFFF;
+  position: absolute;
+  width: 32%;
+}
+.sign-in .sign-in-container .left-container .img {
+  position: relative;
+  width: 90%;
+}
+.sign-in .sign-in-container .right-container {
+  width: 50%;
+  text-align: start;
+  background-color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-left: 15px;
+}
+.sign-in .sign-in-container .right-container .sign-up-title {
+  font-family: "Bayon";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 100%;
+  letter-spacing: 0.015em;
+  color: #7363F4;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+.sign-in .sign-in-container .right-container .line-two-container {
+  text-align: start;
+  display: flex;
+  margin-bottom: 20px;
+}
+.sign-in .sign-in-container .right-container .line-two-container .line {
+  width: 60px;
+  height: 2px;
+  background-color: #000000;
+  margin-left: 0;
+  margin-top: 6px;
+}
+.sign-in .sign-in-container .right-container .line-two-container .sign-up-with {
+  font-family: "Bai Jamjuree";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #000000;
+  margin-left: -230px;
+}
+.sign-in .sign-in-container .right-container .line-three-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sign-in .sign-in-container .right-container .line-three-container .button {
+  width: 140px;
+  height: 25px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.sign-in .sign-in-container .right-container .line-three-container .button .logo {
+  width: 10%;
+  padding-top: 6px;
+  padding-left: 3px;
+  margin-left: 5px;
+}
+.sign-in .sign-in-container .right-container .line-three-container .button .link-name {
+  font-family: "Bai Jamjuree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  margin-left: 5px;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+}
+.sign-in .sign-in-container .right-container .input-container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Bai Jamjuree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  margin-top: 15px;
+  /* identical to box height, or 11px */
+  letter-spacing: 0.015em;
+}
+.sign-in .sign-in-container .right-container .input-container label {
+  margin: 0;
+  padding-left: 15px;
+}
+.sign-in .sign-in-container .right-container .input-container input {
+  margin: 0;
+  width: 230px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 2px;
+  padding-left: 5px;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  padding-left: 15px;
+  font-family: "Bai Jamjuree";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 78%;
+  /* or 9px */
+  letter-spacing: 0.015em;
+  color: #000000;
+}
+.sign-in .sign-in-container .right-container .line-four-container {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.sign-in .sign-in-container .right-container .line-four-container .capcha-container {
+  width: 232px;
+  height: 45px;
+  background: rgba(232, 232, 232, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.sign-in .sign-in-container .right-container .line-four-container .capcha-container p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 125%;
+  /* identical to box height, or 15px */
+  letter-spacing: 0.13em;
+  color: #000000;
+}
+.sign-in .sign-in-container .right-container .skip-container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  padding-top: 20px;
+}
+.sign-in .sign-in-container .right-container .skip-container .createbtn {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #000000;
+  border-radius: 15px;
+}
+.sign-in .sign-in-container .right-container .skip-container .createbtn .arrow {
+  margin: 12px;
+}
+.sign-in .sign-in-container .right-container .skip-container .have-account-in {
+  font-family: "Bai Jamjuree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 125%;
+  /* identical to box height, or 12px */
+  letter-spacing: 0.015em;
+  color: #000000;
+  padding-top: 20px;
+  margin-left: -25px;
+  text-decoration: none;
+}
+.sign-in .sign-in-container .right-container .skip-container span {
+  background-color: #6C63FE;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.sign-in .sign-in-container .right-container .have-account-in:hover {
+  text-decoration: underline;
+}
+.sign-in .sign-in-container .right-container .createbtn:hover {
+  background-color: #424242;
+}
+.sign-in .sign-in-container .right-container .error-msg {
+  margin-top: 7px;
+  margin-bottom: -7px;
+  width: 300px;
+  text-align: center;
+  display: block;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  font-family: "Bai Jamjuree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 125%;
+}
+.sign-in .sign-in-container .close1 {
+  padding-top: 10px;
+  padding-left: 348px;
+  cursor: pointer;
+}/*# sourceMappingURL=style3.css.map */

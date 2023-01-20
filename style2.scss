@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth; 
+  max-width: 100%;
+}
+
+body {
+  height: 100%;
+  max-width: 100%;  
+  background: white;
+  position: relative;
+}
+.circle {
+ position: absolute;
+ width: 100%;
+ bottom: 0;
+ z-index: -1;
+}
+
+@import "scss-startup/home-page";
+@import "scss-startup/header-page";
+@import "scss-startup/goal-page";
+@import "scss-startup/member-page";
+@import "scss-startup/footer";
